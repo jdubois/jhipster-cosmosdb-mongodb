@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "io.github.jdubois.jhipstercosmos"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "jhipstercosmos",
+    "packageName": "io.github.jdubois.jhipstercosmos",
+    "packageFolder": "io/github/jdubois/jhipstercosmos",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MzU0YTg2YmVmNjFlYmFkZWYyOGVkZDJlMjVkOTRmNzdjYTkzMDNhMmJlNWFlYjNjNzUzNjY5NDQzZWI1N2I3NjkwMjUyMWViNGJhZjNkM2M0ZjA1ZjJjYjU0ZDBiNGUzOGViZDc5Y2UzOWI2MzdjMjQwNDBlZjVlYjMyNWFkZDU=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
