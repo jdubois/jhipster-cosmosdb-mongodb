@@ -27,7 +27,7 @@
     "clientFramework": "angularX",
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "testFrameworks": ["gateling"],
+    "testFrameworks": ["gatling"],
     "jhiPrefix": "jhi",
     "entitySuffix": "",
     "dtoSuffix": "DTO",
