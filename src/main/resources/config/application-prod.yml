@@ -33,7 +33,7 @@ spring:
       enabled: false
   data:
     mongodb:
-      uri: mongodb://localhost:27017
+      uri: mongodb://judubois:qQ0cE4zU7xBdve3kVBUcaiYEH5Xa115FiZ3CzragHynNAaEUn22qvb8ZPdtd9qtfe8dnLvlHdyz5ipoMNsy1Mg==@judubois.documents.azure.com:10255/?ssl=true&replicaSet=globaldb
       database: jhipstercosmos
   mail:
     host: localhost
