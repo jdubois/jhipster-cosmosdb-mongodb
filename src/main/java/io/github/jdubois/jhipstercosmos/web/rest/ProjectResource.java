@@ -9,6 +9,10 @@ import io.github.jhipster.web.util.ResponseUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.data.domain.Example;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -84,9 +88,11 @@ public class ProjectResource {
      * @return the {@link ResponseEntity} with status {@code 200 (OK)} and the list of projects in body.
      */
     @GetMapping("/projects")
-    public List<Project> getAllProjects() {
+    public ResponseEntity<List<Project>> getAllProjects() {
         log.debug("REST request to get all Projects");
-        return projectRepository.findAll();
+        Pageable pageable = PageRequest.of(0, 20);
+        Page<Project> page = projectRepository.findAll(pageable);
+        return ResponseEntity.ok().body(page.getContent());
     }
 
     /**
